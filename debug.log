@@ -1,2 +1,0 @@
-[0730/084558.547:ERROR:registration_protocol_win.cc(64)] BuildSecurityDescriptor: The specified network provider name is invalid. (0x4B4)
-[0730/084558.611:ERROR:crashpad_client_win.cc(508)] CreateProcess: Insufficient system resources exist to complete the requested service. (0x5AA)

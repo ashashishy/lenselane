@@ -1,44 +1,50 @@
 const SHOP_DATA = [
   {
     id: 1,
-    title: "Hats",
-    routeName: "hats",
+    title: "Cameras",
+    routeName: "cameras",
     items: [
       {
         id: 1,
-        name: "Brown Brim",
-        imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
-        price: 25,
+        name: "Nikon D3500",
+        imageUrl:
+          "https://images.unsplash.com/photo-1541690663428-b99fc611c419?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1494&q=80",
+        price: 1000,
       },
       {
         id: 2,
-        name: "Blue Beanie",
-        imageUrl: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
-        price: 18,
+        name: "Canon EOS 1300D",
+        imageUrl:
+          "https://images.unsplash.com/photo-1591114286974-595c5ffb0c41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80",
+        price: 1800,
       },
       {
         id: 3,
-        name: "Brown Cowboy",
-        imageUrl: "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
-        price: 35,
+        name: "Leica M6",
+        imageUrl:
+          "https://images.unsplash.com/photo-1542144761-a4407d596a8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1378&q=80",
+        price: 3500,
       },
       {
         id: 4,
-        name: "Grey Brim",
-        imageUrl: "https://i.ibb.co/RjBLWxB/grey-brim.png",
-        price: 25,
+        name: "Canon EOS 5D Mark IV",
+        imageUrl:
+          "https://images.unsplash.com/photo-1513210611897-d78a2bab7654?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80",
+        price: 2500,
       },
       {
         id: 5,
-        name: "Green Beanie",
-        imageUrl: "https://i.ibb.co/YTjW3vF/green-beanie.png",
-        price: 18,
+        name: "Pentax K-1 Mark II",
+        imageUrl:
+          "https://3.img-dpreview.com/files/p/E~TS589x442~articles/1957062322/DSC00624.acr.jpeg",
+        price: 1800,
       },
       {
         id: 6,
-        name: "Palm Tree Cap",
-        imageUrl: "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
-        price: 14,
+        name: "Canon Eos 1500D",
+        imageUrl:
+          "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201806/canon_1500D.jpeg?kxdzvzU56qKevt.lbD48KrvgIc0TRfHa",
+        price: 1400,
       },
       {
         id: 7,
@@ -62,37 +68,42 @@ const SHOP_DATA = [
   },
   {
     id: 2,
-    title: "Sneakers",
-    routeName: "sneakers",
+    title: "Drones",
+    routeName: "drones",
     items: [
       {
         id: 10,
-        name: "Adidas NMD",
-        imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
+        name: "DJI Mavic Air 2",
+        imageUrl:
+          "https://images.unsplash.com/photo-1551475957-4bf213ef272d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1576&q=80",
         price: 220,
       },
       {
         id: 11,
-        name: "Adidas Yeezy",
-        imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
+        name: "DJI Phantom 4",
+        imageUrl:
+          "https://images.unsplash.com/photo-1473968512647-3e447244af8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
         price: 280,
       },
       {
         id: 12,
-        name: "Black Converse",
-        imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
+        name: "Parrot Anafi",
+        imageUrl:
+          "https://images.unsplash.com/photo-1564518459418-e965f6dcdd8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
         price: 110,
       },
       {
         id: 13,
-        name: "Nike White AirForce",
-        imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
+        name: "DJI Inspire 2",
+        imageUrl:
+          "https://images.unsplash.com/photo-1588363959957-a661f2dc6f05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
         price: 160,
       },
       {
         id: 14,
-        name: "Nike Red High Tops",
-        imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
+        name: "DJI Mavic Mini",
+        imageUrl:
+          "https://images.unsplash.com/photo-1579829366248-204fe8413f31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
         price: 160,
       },
       {
